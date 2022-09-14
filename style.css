@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(133, 150, 172);
+}
+
+form{
+    text-align:center;   
+}
+
+img{
+    height: 186px;
+    width: 339px;
+}
+
+p{
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-size: 10px;
+}
+
+#hp{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 150px;
+    margin-top: 300px;
+    width: 760px;
+    height: 200px;
+    border: 2.7px solid;
+    float: left;
+    background-color: rgb(133, 150, 172);
+}
+
+#lg{
+    font-family: OCR A Std, monospace;
+    font-size: 40px;
+    background-color: rgb(133, 150, 172);
+}
+
+#enviar, #reset, #back{
+    margin-top: 12px;
+    opacity: 0.75;
+    letter-spacing: 2px;
+    font-size: 12.4px;
+    color: black;
+    font-family: arial;
+    background: linear-gradient(to bottom, #ffffff, rgb(118, 167, 167));
+    border-radius: 5px;
+    padding:3.7px;
+    transition: all 0.19s ease;
+    width: 110px;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    opacity: 0.38;
+}
+
+#reset:hover{
+    opacity: 0.38;
+}
+
+#back:hover{
+    opacity: 0.38;
+}
+
+#esfera, #piramide, #triangulo, #calculadora, #calculator{
+display: block;
+border: 2px solid;
+margin-top: 330px;
+margin-right: 200px ;
+float: right;
+}
+
